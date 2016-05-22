@@ -7,7 +7,7 @@ code_file_path = ARGV[0]
 # parse source code to target ruby code
 code = load_code code_file_path
 
-# binding
+# TODO: run the code in a sandbox
 def get_binding
   binding
 end
